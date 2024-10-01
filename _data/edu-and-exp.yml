@@ -1,27 +1,28 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD (Mathematics)
-      institution: <a href='https://psl.eu/'>PSL Research University</a> (pursued at the <a href='http://www.di.ens.fr'>Département d'Informatique</a> of <a href='http://www.ens.fr'>École Normale Supérieure</a>), Paris, France
-      year: 2018.12
+    - title: PhD Candidate
+      institution: <a href='https://au.njust.edu.cn/'>School of Automation</a>, <a href='https://www.njust.edu.cn/'>Nanjing University of Science and Technology</a>, Nanjing, China
+      year: 2020.09 - now
       description:
-        - Supervisor&#58; <a href='https://who.rocq.inria.fr/Albert.Cohen/'>Prof. Albert Cohen</a>.
-        - <a href='../assets/pdf/thesis.pdf'>PhD thesis</a>.
-    - title: PhD (Computer Science)
-      institution: Information Engineering University, Zhengzhou, China
-      year: 2016.06
+        - Supervisor&#58; Prof. Lifeng Ma.
+        # - <a href='../assets/pdf/thesis.pdf'>PhD thesis</a>.
+        - Data-Driven Control for Networked Nonlinear Systems.
+    - title: Visiting PhD Student
+      institution: <a href='https://www.ucy.ac.cy/ece/?lang=en'>Department of Electrical and Computer Engineering</a>, School of Electrical Engineering, <a href='https://www.ucy.ac.cy/?lang=en'>University of Cyprus</a>, Nicosia, Cyprus.
+      year: 2023.09 - 2024.09
       description:
-        - Supervisor&#58; <a href='mailto:rczhao126@126.com'>Prof. Rongcai Zhao</a>.
-        - PhD thesis was written in Chinese and can be offered when required.
-    - title: MPhil
-      institution: Information Engineering University, Zhengzhou, China
-      year: 2012.06
+        - Supervisor&#58; <a href='https://www.themistoklis.org/'>Prof. Themistoklis Charalambous</a>.
+        - Data-driven control for nonlinear automated vehicles.
+    - title: MEng
+      institution: <a href='https://zdh.qust.edu.cn/'>College of Automation and Electronic Engineering</a>, <a href='https://www.qust.edu.cn/'>Qingdao University of Science and Technology</a>, Qingdao, China
+      year: 2017.09 - 2020.06
       description:
-        - Supervisor&#58; <a href='mailto:rczhao126@126.com'>Prof. Rongcai Zhao</a>.
-        - MPhil dissertation was written in Chinese and can be offered when required.
-    - title: BEng
-      institution: <a href='http://www.cs.tsinghua.edu.cn/'>Department of Computer Science and Technology</a>, <a href='http://www.tsinghua.edu.cn'>Tsinghua University</a>, Beijing, China
-      year: 2009.07
+        - Supervisor&#58; <a href='https://zdh.qust.edu.cn/info/1158/7255.htm'>Prof. Ronghu Chi</a>.
+        - Design and analysis of local linearization and intelligent self-learning control methods.
+    # - title: BEng
+    #   institution: <a href='http://www.cs.tsinghua.edu.cn/'>Department of Computer Science and Technology</a>, <a href='http://www.tsinghua.edu.cn'>Tsinghua University</a>, Beijing, China
+    #   year: 2009.07
 
 - title: Experience
   type: time_table
