@@ -7,7 +7,7 @@ subtitle: Position&#58; Ph.D. candidate<br>Affiliation&#58; <a href='https://au.
 profile:
   align: right
   image: main.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   # 照片说明
   # more_info: >
     # <p>555 your office number</p>
@@ -16,7 +16,7 @@ profile:
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 Shuhua Zhang is currently pursuing a Ph.D. in the [School of Automation](https://au.njust.edu.cn/) at [Nanjing University of Science and Technology](https://www.njust.edu.cn/). She received her M.Sc. degree from [Qingdao University of Science and Technology](https://www.qust.edu.cn/) under the supervision of [Prof. Ronghu Chi](https://zdh.qust.edu.cn/info/1158/7255.htm). Her research focuses on data-driven control, distributed control and estimation, networked nonlinear systems, and autonomous vehicles. Detailed information about her [research projects](https://shuhuazh.github.io/research/), [funding sources](https://shuhuazh.github.io/research/), [honors](https://shuhuazh.github.io/research/), [awards](https://shuhuazh.github.io/research/), and related [publications](https://shuhuazh.github.io/publications/) is provided on this page.
