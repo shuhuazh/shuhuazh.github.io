@@ -1,0 +1,54 @@
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Data-Driven Control
+      # items:
+      #   - Program transformations using the polyhedral model. Related publications&#58; <a href='https://dl.acm.org/doi/10.1145/3178372.3179509'>CC 2018</a>, <a href='https://dl.acm.org/doi/10.1145/3369382'>ACM TACO 2019</a>, <a href='https://ieeexplore.ieee.org/document/9251965'>MICRO 2020</a>, <a href='https://dl.acm.org/doi/10.1145/3635305'>ACM TOCS 2024</a>.
+      #   - Code generation for high-performance architectures. Related publications&#58; <a href='https://dl.acm.org/doi/10.1145/3330345.3331059'>ICS 2019</a>, <a href='https://dl.acm.org/doi/10.1145/3545008.3545031'>ICPP 2022</a>, <a href='https://dl.acm.org/doi/10.1145/3627535.3638484'>PPoPP 2024</a>.
+    - title: Distributed Control and Estimation
+      # items:
+      #   - Frameworks for deploying deep learning workloads on distributed architectures. Related publications&#58; <a href='https://arxiv.org/abs/2110.15032'>arXiv 2021</a>.
+      #   - Graph compilers that study the fusion of graph nodes. Related publications&#58; <a href='https://proceedings.mlsys.org/paper_files/paper/2022/hash/e175e8a86d28d935be4f43719651f86d-Abstract.html'>MLSys 2022</a>, <a href='https://www.usenix.org/conference/osdi23/presentation/zhao'>OSDI 2023</a>.
+      #   - Operator compilers that investigate automatic loop transformations and memory managements for tensor operations. Related publications&#58; <a href='https://dl.acm.org/doi/10.1145/3453483.3454106'>PLDI 2021</a>, <a href='https://dl.acm.org/doi/10.1145/3559009.3569656'>PACT 2022</a>, <a href='https://proceedings.mlsys.org/paper_files/paper/2023/hash/875578931a159790107a9184e39a67a4-Abstract-mlsys2023.html'>MLSys 2023</a>, <a href='https://www.usenix.org/conference/osdi24/presentation/zhai'>OSDI 2024</a>.
+    - title: Networked Nonlinear Systems
+      # items:
+      #   - Floating-point error detection. Related publications&#58; <a href='https://ieeexplore.ieee.org/document/10298397'>ASE 2023</a>.
+      #   - Repairing numerical programs through expression rewriting&#58; <a href='https://dl.acm.org/doi/10.1145/3650212.3680378'>ISSTA 2024</a>.
+    - title: Automated Vehicles
+    #  items:
+    #    - Beginner for this emerging research area. Achievements will be released soon...
+
+- title: Funding &amp; Grants
+  type: time_table
+  contents:
+    - title: Research on Data-Driven Control Algorithms for Nonlinear Systems under Network Attacks 
+      year: 2023.04 - 2024.03
+      description:
+        - Postgraduate Research and Practice Innovation Program of Jiangsu Province (Grant KYCX23_0477)
+        - Principal Investigator
+        # - <span>&#165;</span> 2,000,000
+    - title: Research on Data-Driven Control of Networked Nonlinear Systems
+      year: 2023.09 - 2024.09
+      description:
+        - China Scholarship Council (Grant 202306840126)
+        - Principal Investigator
+        # - <span>&#165;</span> 2,600,000 in total; <span>&#165;</span> 800,000 for the Information Engineering University
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2021
+      items: 
+        - Outstanding Master's Degree Thesis of Shandong Province (Shandong Provincial Education Department)
+
+    - year: 2020
+      items: 
+        - Excellent master postgraduate (Qingdao University of Science and Technology)
+
+    - year: 2019
+      items: 
+        - Wanhua Chemical Scholarship
+
+    - year: 2018
+      items: 
+        - Third Prize in the 14th "Huawei Cup" China Graduate Mathematical Modeling Competition
