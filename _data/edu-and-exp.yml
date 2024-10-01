@@ -1,0 +1,59 @@
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD (Mathematics)
+      institution: <a href='https://psl.eu/'>PSL Research University</a> (pursued at the <a href='http://www.di.ens.fr'>Département d'Informatique</a> of <a href='http://www.ens.fr'>École Normale Supérieure</a>), Paris, France
+      year: 2018.12
+      description:
+        - Supervisor&#58; <a href='https://who.rocq.inria.fr/Albert.Cohen/'>Prof. Albert Cohen</a>.
+        - <a href='../assets/pdf/thesis.pdf'>PhD thesis</a>.
+    - title: PhD (Computer Science)
+      institution: Information Engineering University, Zhengzhou, China
+      year: 2016.06
+      description:
+        - Supervisor&#58; <a href='mailto:rczhao126@126.com'>Prof. Rongcai Zhao</a>.
+        - PhD thesis was written in Chinese and can be offered when required.
+    - title: MPhil
+      institution: Information Engineering University, Zhengzhou, China
+      year: 2012.06
+      description:
+        - Supervisor&#58; <a href='mailto:rczhao126@126.com'>Prof. Rongcai Zhao</a>.
+        - MPhil dissertation was written in Chinese and can be offered when required.
+    - title: BEng
+      institution: <a href='http://www.cs.tsinghua.edu.cn/'>Department of Computer Science and Technology</a>, <a href='http://www.tsinghua.edu.cn'>Tsinghua University</a>, Beijing, China
+      year: 2009.07
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Professor
+      institution: <a href='http://csee.hnu.edu.cn/home.htm'>College of Computer Science and Electronic Engineering</a>, <a href='http://www-en.hnu.edu.cn/'>Hunan University</a>, Changsha, China
+      year: 2024.01 - now
+
+    - title: Associate Professor
+      institution: <a href='http://info.ruc.edu.cn/Home/index.htm'>School of Information</a>, <a href='https://en.ruc.edu.cn/'>Renmin University of China</a>, Beijing, China
+      year: 2023.09 - 2024.01
+
+    - title: Lecturer
+      institution: School of Cyberspace Security, Information Engineering University, Zhengzhou, China
+      year: 2019.01 - 2023.07
+
+    - title: Part-time Cooperation
+      institution: <a href='https://www.huawei.com/en/'>Huawei Technologies Co., Ltd.</a>, Beijing, China
+      year: 2023.08 - now 
+
+    - title: Part-time Cooperation
+      institution: <a href='https://www.streamcomputing.com/'>Stream Computing Co., Ltd.</a>, Hangzhou, China
+      year: 2021.04 - 2023.03
+
+    - title: Part-time Cooperation
+      institution: <a href='https://www.huawei.com/en/'>Huawei Technologies Co., Ltd.</a>, Hangzhou, China
+      year: 2019.02 - 2021.12
+
+    - title: Part-time Cooperation
+      institution: <a href='https://www.alibaba.com/'>Alibaba Group</a>, Beijing, China
+      year: 2020.04 - 2021.03
+
+    - title: Part-time Cooperation
+      institution: <a href='https://www.huawei.com/fr/'>Huawei Technologies France SASU</a>, Paris, France
+      year: 2018.05 - 2018.09
