@@ -5,7 +5,7 @@
       institution: <a href='https://au.njust.edu.cn/'>School of Automation</a>, <a href='https://www.njust.edu.cn/'>Nanjing University of Science and Technology</a>, Nanjing, China
       year: 2020.09 - now
       description:
-        - Supervisor&#58; Prof. Lifeng Ma.
+        - Supervisor&#58; <a href='http://202.119.85.163/open/TutorInfo.aspx?dsbh=Tgqjjfe24SmgkxFaoLNAog==&yxsh=z5DnUPrzKKU=&zydm=w816eYcH!4Q='>Prof. Lifeng Ma</a>.
         # - <a href='../assets/pdf/thesis.pdf'>PhD thesis</a>.
         - Data-Driven Control for Networked Nonlinear Systems.
     - title: Visiting PhD Student
@@ -35,26 +35,4 @@
       institution: <a href='http://info.ruc.edu.cn/Home/index.htm'>School of Information</a>, <a href='https://en.ruc.edu.cn/'>Renmin University of China</a>, Beijing, China
       year: 2023.09 - 2024.01
 
-    - title: Lecturer
-      institution: School of Cyberspace Security, Information Engineering University, Zhengzhou, China
-      year: 2019.01 - 2023.07
-
-    - title: Part-time Cooperation
-      institution: <a href='https://www.huawei.com/en/'>Huawei Technologies Co., Ltd.</a>, Beijing, China
-      year: 2023.08 - now 
-
-    - title: Part-time Cooperation
-      institution: <a href='https://www.streamcomputing.com/'>Stream Computing Co., Ltd.</a>, Hangzhou, China
-      year: 2021.04 - 2023.03
-
-    - title: Part-time Cooperation
-      institution: <a href='https://www.huawei.com/en/'>Huawei Technologies Co., Ltd.</a>, Hangzhou, China
-      year: 2019.02 - 2021.12
-
-    - title: Part-time Cooperation
-      institution: <a href='https://www.alibaba.com/'>Alibaba Group</a>, Beijing, China
-      year: 2020.04 - 2021.03
-
-    - title: Part-time Cooperation
-      institution: <a href='https://www.huawei.com/fr/'>Huawei Technologies France SASU</a>, Paris, France
-      year: 2018.05 - 2018.09
+    
