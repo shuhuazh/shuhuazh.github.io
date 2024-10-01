@@ -4,7 +4,7 @@
     - title: Data-Driven Control
       items:
         - aaa
-      #   - Program transformations using the polyhedral model. Related publications&#58; <a href='https://dl.acm.org/doi/10.1145/3178372.3179509'>CC 2018</a>, <a href='https://dl.acm.org/doi/10.1145/3369382'>ACM TACO 2019</a>, <a href='https://ieeexplore.ieee.org/document/9251965'>MICRO 2020</a>, <a href='https://dl.acm.org/doi/10.1145/3635305'>ACM TOCS 2024</a>.
+      # - Program transformations using the polyhedral model. Related publications&#58; <a href='https://dl.acm.org/doi/10.1145/3178372.3179509'>CC 2018</a>, <a href='https://dl.acm.org/doi/10.1145/3369382'>ACM TACO 2019</a>, <a href='https://ieeexplore.ieee.org/document/9251965'>MICRO 2020</a>, <a href='https://dl.acm.org/doi/10.1145/3635305'>ACM TOCS 2024</a>.
       #   - Code generation for high-performance architectures. Related publications&#58; <a href='https://dl.acm.org/doi/10.1145/3330345.3331059'>ICS 2019</a>, <a href='https://dl.acm.org/doi/10.1145/3545008.3545031'>ICPP 2022</a>, <a href='https://dl.acm.org/doi/10.1145/3627535.3638484'>PPoPP 2024</a>.
     - title: Distributed Control and Estimation
       items:
@@ -18,9 +18,9 @@
       #   - Floating-point error detection. Related publications&#58; <a href='https://ieeexplore.ieee.org/document/10298397'>ASE 2023</a>.
       #   - Repairing numerical programs through expression rewriting&#58; <a href='https://dl.acm.org/doi/10.1145/3650212.3680378'>ISSTA 2024</a>.
     - title: Automated Vehicles
-     items:
-      - aaa
-    #    - Beginner for this emerging research area. Achievements will be released soon...
+      items:
+        - aaa
+      #  - Beginner for this emerging research area. Achievements will be released soon...
 
 - title: Funding &amp; Grants
   type: time_table
