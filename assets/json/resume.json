@@ -224,21 +224,21 @@
       "summary": "In 2018 Chinese Control And Decision Conference (CCDC)"
     }
   ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+  // "skills": [
+  //   {
+  //     "name": "Physics",
+  //     "level": "Master",
+  //     "icon": "fa-solid fa-hashtag",
+  //     "keywords": [
+  //       "Quantum Mechanics",
+  //       "Quantum Computing",
+  //       "Quantum Information",
+  //       "Quantum Cryptography",
+  //       "Quantum Communication",
+  //       "Quantum Teleportation"
+  //     ]
+  //   }
+  // ],
   "languages": [
     {
       "language": "Chinese",
@@ -267,27 +267,54 @@
     {
       "name": "Professor Lifeng Ma",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "School of Automation, Nanjing University of Science and Technology, Nanjing, China."
     },
     {
       "name": "Professor Themistoklis Charalambous",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Department of Electrical and Computer Engineering, School of Electrical Engineering, University of Cyprus, Nicosia, Cyprus."
     },
     {
       "name": "Professor Ronghu Chi",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "College of Automation and Electronic Engineering, Qingdao University of Science and Technology, Qingdao, China."
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Data-Driven Control for Nonlinear Systems under Network Attacks",
+      "summary": "Postgraduate Research and Practice Innovation Program of Jiangsu Province (Grant KYCX23_0477)",
+      "highlights": ["Principal Investigator"],
+      "startDate": "2023-04",
+      "endDate": "2024-03"
+    },
+    {
+      "name": "Data-Driven Control of Networked Nonlinear Systems",
+      "summary": "China Scholarship Council (Grant 202306840126)",
+      "highlights": ["Principal Investigator"],
+      "startDate": "2023-09",
+      "endDate": "2024-09"
+    },
+    {
+      "name": "Distributed secure state estimation under cyber-attacks and probabilistic performance constraints",
+      "summary": "National Natural Science Foundation of China (Grant KT10134)",
+      "highlights": ["Participant"],
+      "startDate": "2023-01",
+      "endDate": "2026-12"
+    },
+    {
+      "name": "Distributed Set-Membership Filtering Based on Event-Triggered Mechanisms under Network Attacks",
+      "summary": "National Natural Science Foundation of China (Grant 61773209)",
+      "highlights": ["Participant"],
+      "startDate": "2018-01",
+      "endDate": "2021-12"
+    },
+    {
+      "name": "xxxxxx",
+      "summary": "National Key Basic Research Program of China (973 Program)",
+      "highlights": ["Participant"],
+      "startDate": "2020-09",
+      "endDate": "2021-07"
     }
   ]
 }
