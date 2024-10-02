@@ -84,6 +84,19 @@
       "Supervisor": "Prof. Ronghu Chi",
       "Research": "Design and analysis of local linearization and intelligent self-learning control methods",
       "courses": ["Design and analysis of local linearization and intelligent self-learning control methods"]
+    },
+    {
+      "institution": "Zhongyuan University of Technology, Zhengzhou, China",
+      "location": "Zhengzhou, China",
+      "url": "https://www.zut.edu.cn/",
+      "area": "School of Automation and Electronic Engineering",
+      "studyType": "MSc",
+      "startDate": "2012-12",
+      "endDate": "2014-12",
+      "score": "10"
+      // "Supervisor": "Prof. Ronghu Chi",
+      // "Research": "Design and analysis of local linearization and intelligent self-learning control methods",
+      // "courses": ["Design and analysis of local linearization and intelligent self-learning control methods"]
     }
   ],
   "awards": [
