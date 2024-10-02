@@ -8,7 +8,7 @@
       
     - title: Distributed Control and Estimation
       items:
-        - Multi Agent Systems. Related·publications:<a href='https://onlinelibrary.wiley.com/doi/10.1002/rnc.6964'>IJRNC 2024</a>, <a href='https://ieeexplore.ieee.org/document/9788005'>SIPN 2022</a>.
+        - Multi Agent Systems. Related publications:<a href='https://onlinelibrary.wiley.com/doi/10.1002/rnc.6964'>IJRNC 2024</a>, <a href='https://ieeexplore.ieee.org/document/9788005'>SIPN 2022</a>.
     - title: Networked Nonlinear Systems
       items:
         - Packet dropouts. Related publications:<a href='https://www.researchgate.net/publication/375534241_Data-Driven_Control_for_Nonlinear_Networked_Systems_on_Basis_of_Two_Description_Coding_Scheme'>TASE 2023</a>, <a href='https://css.paperplaza.net/conferences/conferences/CDC24/program/CDC24_ContentListWeb_4.html'>IEEE CDC 2024</a>.
@@ -16,7 +16,7 @@
         - NetworkAttacks. Related publications:<a href='https://onlinelibrary.wiley.com/doi/10.1002/rnc.6964'>IJRNC 2024</a>.
     - title: Automated Vehicles
       items:
-        - Speed tracking.Related publications:<a href='https://css.paperplaza.net/conferences/conferences/CDC24/program/CDC24_ContentListWeb_4.html'>IEEE CDC 2024</a>.
+        - Speed tracking. Related publications:<a href='https://css.paperplaza.net/conferences/conferences/CDC24/program/CDC24_ContentListWeb_4.html'>IEEE CDC 2024</a>.
 
 - title: Funding &amp; Grants
   type: time_table
