@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+One paper titled "Data-Driven Control for Nonlinear Automated Vehicles with Multi-Description Coding for Handling Data Dropouts" was accepted by the [63rd IEEE Conference on Decision and Control](https://css.paperplaza.net/conferences/conferences/CDC24/program/CDC24_ContentListWeb_4.html).
