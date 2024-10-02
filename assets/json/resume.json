@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Shuhua Zhang",
+    "label": "PhD Candidate",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "shuhuazhang_e@163.com",
+    "phone": "",
+    "url": "https://shuhuazh.github.io",
+    "summary": "A Ph.D. candidate in the Nanjing University of Science and Technology",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "No. 200, Xiaolingwei Street, Xuanwu District",
+      "postalCode": "210094",
+      "city": "Nanjing",
+      "countryCode": "China",
+      "region": "Jiangsu"
     },
     "profiles": [
       {
