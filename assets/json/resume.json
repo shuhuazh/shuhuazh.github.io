@@ -52,111 +52,163 @@
       "url": "https://www.njust.edu.cn/",
       "area": "School of Automation",
       "studyType": "PhD",
-      "startDate": "2020-09-01",
+      "startDate": "2020-09",
       "endDate": "present",
       "score": "10",
       "Supervisor": "Prof. Lifeng Ma",
-      "Research": "Data-Driven Control for Networked Nonlinear Systems"
+      "Research": "Data-Driven Control for Networked Nonlinear Systems",
+      "courses": ["Data-Driven Control for Networked Nonlinear Systems"]
     },
     {
-      "institution": "Nanjing University of Science and Technology, Nanjing, China",
-      "location": "Nanjing, China",
-      "url": "https://www.njust.edu.cn/",
-      "area": "School of Automation",
-      "studyType": "PhD",
-      "startDate": "2020-09-01",
-      "endDate": "present",
+      "institution": "University of Cyprus, Nicosia, Cyprus",
+      "location": "Nicosia, Cyprus",
+      "url": "https://www.ucy.ac.cy/?lang=en",
+      "area": "School of Electrical Engineering",
+      "studyType": "Visiting PhD Student",
+      "startDate": "2023-09",
+      "endDate": "2024-10",
       "score": "10",
-      "Supervisor": "Prof. Lifeng Ma",
-      "Research": "Data-Driven Control for Networked Nonlinear Systems"
+      "Supervisor": "Prof. Themistoklis Charalambous",
+      "Research": "Data-driven control for nonlinear automated vehicles",
+      "courses": ["Data-driven control for nonlinear automated vehicles"]
     },
     {
-      "institution": " Nanjing University of Science and Technology, Nanjing, China",
-      "location": "Nanjing, China",
-      "url": "https://www.njust.edu.cn/",
-      "area": "School of Automation",
-      "studyType": "PhD",
-      "startDate": "2020-09-01",
-      "endDate": "present",
+      "institution": "Qingdao University of Science and Technology, Qingdao, China",
+      "location": "Qingdao, China",
+      "url": "https://www.qust.edu.cn/",
+      "area": "College of Automation and Electronic Engineering",
+      "studyType": "MEng",
+      "startDate": "2017-09",
+      "endDate": "2020-06",
       "score": "10",
-      "Supervisor": "Prof. Lifeng Ma",
-      "Research": "Data-Driven Control for Networked Nonlinear Systems"
+      "Supervisor": "Prof. Ronghu Chi",
+      "Research": "Design and analysis of local linearization and intelligent self-learning control methods",
+      "courses": ["Design and analysis of local linearization and intelligent self-learning control methods"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Outstanding Master's Degree Thesis of Shandong Province",
+      "date": "2021",
+      "awarder": "Shandong Provincial Education Department"
+      // "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      // "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    },
+    {
+      "title": "Excellent master postgraduate",
+      "date": "2020",
+      "awarder": "Qingdao University of Science and Technology"
+      // "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      // "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    },
+    {
+      "title": "Wanhua Chemical Scholarship",
+      "date": "2019",
+      "awarder": "Wanhua Chemical Group Co.,Ltd"
+      // "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      // "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    },
+    {
+      "title": "Third Prize in the 14th Huawei Cup China Graduate Mathematical Modeling Competition",
+      "date": "2018",
+      "awarder": "Qingdao University of Science and Technology"
+      // "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      // "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
+  // "certificates": [
+  //   {
+  //     "name": "Machine Learning",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-location-dot"
+  //   },
+  //   {
+  //     "name": "Quantum Computing",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-tag"
+  //   },
+  //   {
+  //     "name": "Quantum Information",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-envelope"
+  //   },
+  //   {
+  //     "name": "Quantum Cryptography",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-hashtag"
+  //   },
+  //   {
+  //     "name": "Quantum Communication",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-calendar"
+  //   },
+  //   {
+  //     "name": "Quantum Teleportation",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-clipboard-check"
+  //   }
+  // ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Encryption–decryption-based event-triggered consensus control for nonlinear MASs under DoS attacks",
+      "publisher": "International Journal of Robust and Nonlinear Control",
+      "releaseDate": "2024",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/rnc.6964",
+      "summary": "International Journal of Robust and Nonlinear Control."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Data-Driven Control for Nonlinear Networked Systems on Basis of Two Description Coding Scheme",
+      "publisher": "IEEE Transactions on Automation Science and Engineering",
+      "releaseDate": "2023",
+      "url": "https://www.researchgate.net/publication/375534241_Data-Driven_Control_for_Nonlinear_Networked_Systems_on_Basis_of_Two_Description_Coding_Scheme",
+      "summary": "IEEE Transactions on Automation Science and Engineering"
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
+      "name": "Model-Free Adaptive Control for Nonlinear Multi-Agent Systems With Encoding-Decoding Mechanism",
+      "publisher": "IEEE Transactions on Signal and Information Processing over Networks",
+      "releaseDate": "2022",
       "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "summary": "IEEE Transactions on Signal and Information Processing over Networks"
+    },
+    {
+      "name": "Model-free adaptive PID control for nonlinear discrete-time systems",
+      "publisher": "Transactions of the Institute of Measurement and Control",
+      "releaseDate": "2020",
+      "url": "https://journals.sagepub.com/doi/10.1177/0142331219896649",
+      "summary": "Transactions of the Institute of Measurement and Control"
+    },
+    {
+      "name": "Nonholonomic dynamic linearisation based adaptive PID-type ILC for nonlinear systems with iteration-varying uncertainties",
+      "publisher": "International Journal of Systems Science",
+      "releaseDate": "2020",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00207721.2020.1746434",
+      "summary": "International Journal of Systems Science"
+    },
+    {
+      "name": "Data-driven Adaptive Iterative Learning Control Based on a Local Dynamic Linearization",
+      "publisher": "In 2018 IEEE 7th Data Driven Control and Learning Systems Conference (DDCLS)",
+      "releaseDate": "2018",
+      "url": "https://ieeexplore.ieee.org/document/8516008",
+      "summary": "In 2018 IEEE 7th Data Driven Control and Learning Systems Conference (DDCLS)"
+    },
+    {
+      "name": "Model-free adaptive control based on local dynamic linearization",
+      "publisher": "In 2018 Chinese Control And Decision Conference (CCDC)",
+      "releaseDate": "2018",
+      "url": "https://ieeexplore.ieee.org/document/8407374",
+      "summary": "In 2018 Chinese Control And Decision Conference (CCDC)"
     }
   ],
   "skills": [
@@ -176,7 +228,7 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -188,26 +240,29 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Control",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Data-Driven Control",
+        "Distributed Control and Estimation",
+        "Networked Nonlinear Systems",
+        "Automated Vehicles"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
+      "name": "Professor Lifeng Ma",
+      "icon": "fa-solid fa-thumbtack",
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
-      "name": "Professor John Doe",
+      "name": "Professor Themistoklis Charalambous",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    },
+    {
+      "name": "Professor Ronghu Chi",
       "icon": "fa-solid fa-thumbtack",
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
