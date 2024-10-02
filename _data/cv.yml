@@ -1,186 +1,100 @@
-# - title: General Information
-#   type: map
-#   contents:
-#     - name: Full Name
-#       value: Albert Einstein
-#     - name: Date of Birth
-#       value: 14th March 1879
-#     - name: Languages
-#       value: English, German
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Shuhua Zhang
+    - name: Date of Birth
+      value: 16th July 1993
+    - name: Languages
+      value: Chinese, English
 
-# - title: Education
-#   type: time_table
-#   contents:
-#     - title: PhD
-#       institution: University of Zurich, Zurich, Switzerland
-#       year: 1905
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Federal teaching diploma
-#       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-#       year: 1900
-#       description:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Professor of Theoretical Physics
-#       institution: Institute for Advanced Study, Princeton University
-#       year: 1933 - 1955
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Visiting Professor
-#       institution: California Institute of Technology, Pasadena, California, US
-#       year: 1933
-#       description:
-#         - Description 1.
-#         - Description 2.
-
-#     - title: Director
-#       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-#       year: 1917-1933
-
-#     - title: Professor of Theoretical Physics
-#       institution: Karl-Ferdinand University, Prague, Czechoslovakia
-#       year: 1911 - 1917
-#       description:
-
-#     - title: Associate Professor of Theoretical Physics
-#       institution: University of Zurich, Zurich, Switzerland
-#       year: 1909 - 1911
-
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items:
-#         - Nobel Prize in Physics
-#         - Matteucci Medal
-#     - year: 2029
-#       items:
-#         - Max Planck Medal
-
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items:
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
 - title: Education
   type: time_table
   contents:
-    - title: PhD degree
-      institution: PSL Research University (obtained at École Normale Supérieure), Paris, French
-      year: 2018
-      PhD thesis: A Combined Language and Polyhedral Approach for Heterogeneous Parallelism
-      #description:
-        #- Description 2.
-        #- title: Description 3.
-          #contents:
-            #- Sub-description 1.
-            #- Sub-description 2.
-    - title: Master's degree
-      institution: National Digital Switching System Engineering &amp; Technological Research Center, Zhengzhou, China
-      year: 2012
-      #ms thesis: A Combined Language and Polyhedral Approach for Heterogeneous Parallelism
-    - title: Bachalor's degree
-      institution: Tsinghua University, Beijing, China
-      year: 2005
-      #ms thesis: A Combined Language and Polyhedral Approach for Heterogeneous Parallelism
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
+      description:
+        - Description 1.
+        - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Lecturer
-      institution: State Key Laboratory of Mathematical Engineering and Advanced Computing, Zhengzhou, China
-      year: 2016.04 - present
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
+      description:
+        - Description 1.
+        - Description 2.
 
-    - title: Senior Consultant
-      institution: Stream Computing Co., Ltd., Hangzhou, China
-      year: 2020.04 - present
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
 
-    - title: Senior Consultant
-      institution: Huawei Technologies Co., Ltd., Hangzhou and Beijing, China
-      year: 2019.02 - 2021.04
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
+      description:
 
-    - title: Visiting Scholar
-      institution: Alibaba Group, China
-      year: 2020.04 - 2021.04
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
 
-    - title: Consultant
-      institution: Huawei Technologies France SASU, Paris, France
-      year: 2018.05 - 2018.09
-
-- title: Grants
+- title: Open Source Projects
   type: time_table
   contents:
-    - title: Deep Learning and Tensor Compilers based on the Polyheral Model
-      year: 2021.01 - 2024.12
-      description:
-        - National Natural Science Foundation of China
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2020
-      items: 
-        - IEEE/ACM MICRO-53 Best Paper Nominees
+    - year: 1921
+      items:
+        - Nobel Prize in Physics
+        - Matteucci Medal
+    - year: 2029
+      items:
+        - Max Planck Medal
 
-    - year: 2019
-      items: 
-        - HPC China 2019 Outerstanding Paper Award
-
-    - year: 2017
-      items: 
-        - SIGPLAN Grant for PLDI 2017
-
-    - year: 2016
-      items: 
-        - SIGPLAN PLMW scholarship for OOPSLA 2016
-
-    - year: 2013
-      items: 
-        - Excellent Master Dissertation Award, 1st place
-    
-
-- title: Research Interests
+- title: Academic Interests
   type: nested_list
   contents:
-    - title: High-performance code generation through polyhedral approaches
-      #items: 
-        #- Description 1.
-        #- Description 2.
-    - title: Optimizing compilers towards deep learning workloads
-    - title: Interaction between programming frameworks and libraries
+    - title: Topic 1.
+      items:
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
 
 #- title: Other Interests
   #type: list
