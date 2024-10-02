@@ -24,4 +24,6 @@
     - title: Visiting PhD Student
       institution: <a href='https://www.ucy.ac.cy/ece/?lang=en'>Department of Electrical and Computer Engineering</a>, School of Electrical Engineering, <a href='https://www.ucy.ac.cy/?lang=en'>University of Cyprus</a>, Nicosia, Cyprus
       year: 2023.09 - 2024.09
-    
+      description:
+        - Supervisor&#58; <a href='https://www.themistoklis.org/'>Prof. Themistoklis Charalambous</a>.
+        - Data-driven control for nonlinear automated vehicles.
