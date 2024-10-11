@@ -178,50 +178,50 @@
       "name": "Encryption–decryption-based event-triggered consensus control for nonlinear MASs under DoS attacks",
       "publisher": "International Journal of Robust and Nonlinear Control",
       "releaseDate": "2024",
-      "url": "https://onlinelibrary.wiley.com/doi/10.1002/rnc.6964",
-      "summary": "International Journal of Robust and Nonlinear Control."
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/rnc.6964"
+      // "summary": "International Journal of Robust and Nonlinear Control."
     },
     {
       "name": "Data-Driven Control for Nonlinear Networked Systems on Basis of Two Description Coding Scheme",
       "publisher": "IEEE Transactions on Automation Science and Engineering",
       "releaseDate": "2023",
-      "url": "https://www.researchgate.net/publication/375534241_Data-Driven_Control_for_Nonlinear_Networked_Systems_on_Basis_of_Two_Description_Coding_Scheme",
-      "summary": "IEEE Transactions on Automation Science and Engineering"
+      "url": "https://www.researchgate.net/publication/375534241_Data-Driven_Control_for_Nonlinear_Networked_Systems_on_Basis_of_Two_Description_Coding_Scheme"
+      // "summary": "IEEE Transactions on Automation Science and Engineering"
     },
     {
       "name": "Model-Free Adaptive Control for Nonlinear Multi-Agent Systems With Encoding-Decoding Mechanism",
       "publisher": "IEEE Transactions on Signal and Information Processing over Networks",
       "releaseDate": "2022",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "IEEE Transactions on Signal and Information Processing over Networks"
+      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie"
+      // "summary": "IEEE Transactions on Signal and Information Processing over Networks"
     },
     {
       "name": "Model-free adaptive PID control for nonlinear discrete-time systems",
       "publisher": "Transactions of the Institute of Measurement and Control",
       "releaseDate": "2020",
-      "url": "https://journals.sagepub.com/doi/10.1177/0142331219896649",
-      "summary": "Transactions of the Institute of Measurement and Control"
+      "url": "https://journals.sagepub.com/doi/10.1177/0142331219896649"
+      // "summary": "Transactions of the Institute of Measurement and Control"
     },
     {
       "name": "Nonholonomic dynamic linearisation based adaptive PID-type ILC for nonlinear systems with iteration-varying uncertainties",
       "publisher": "International Journal of Systems Science",
       "releaseDate": "2020",
-      "url": "https://www.tandfonline.com/doi/abs/10.1080/00207721.2020.1746434",
-      "summary": "International Journal of Systems Science"
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00207721.2020.1746434"
+      // "summary": "International Journal of Systems Science"
     },
     {
       "name": "Data-driven Adaptive Iterative Learning Control Based on a Local Dynamic Linearization",
       "publisher": "In 2018 IEEE 7th Data Driven Control and Learning Systems Conference (DDCLS)",
       "releaseDate": "2018",
-      "url": "https://ieeexplore.ieee.org/document/8516008",
-      "summary": "In 2018 IEEE 7th Data Driven Control and Learning Systems Conference (DDCLS)"
+      "url": "https://ieeexplore.ieee.org/document/8516008"
+      // "summary": "In 2018 IEEE 7th Data Driven Control and Learning Systems Conference (DDCLS)"
     },
     {
       "name": "Model-free adaptive control based on local dynamic linearization",
       "publisher": "In 2018 Chinese Control And Decision Conference (CCDC)",
       "releaseDate": "2018",
-      "url": "https://ieeexplore.ieee.org/document/8407374",
-      "summary": "In 2018 Chinese Control And Decision Conference (CCDC)"
+      "url": "https://ieeexplore.ieee.org/document/8407374"
+      // "summary": "In 2018 Chinese Control And Decision Conference (CCDC)"
     }
   ],
   // "skills": [
