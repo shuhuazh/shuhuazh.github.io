@@ -15,7 +15,7 @@ profile:
         margin-bottom: -100px;
       }
       .profile img {
-        transform: scale(0.6);
+        transform: scale(0.7);
         transform-origin: top center;
       }
     </style>
