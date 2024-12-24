@@ -7,12 +7,18 @@ subtitle: Position&#58; Ph.D. candidate<br>Affiliation&#58; <a href='https://au.
 profile:
   align: right
   image: main.jpg
-  image_circular: true  # crops the image to make it circular
+  image_circular: false  # crops the image to make it circular
   # 照片说明
-  # more_info: >
-    # <p>555 your office number</p>
-    # <p>123 your address street</p>
-    # <p>Your City, State 12345</p>
+  more_info: >
+    <style>
+      .profile {
+        margin-bottom: -90px;
+      }
+      .profile img {
+        transform: scale(0.7);
+        transform-origin: top center;
+      }
+    </style>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
