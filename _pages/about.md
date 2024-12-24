@@ -7,7 +7,7 @@ subtitle: Position&#58; Ph.D. candidate<br>Affiliation&#58; <a href='https://au.
 profile:
   align: right
   image: main.jpg
-  image_circular: true  # crops the image to make it circular
+  image_circular: false  # crops the image to make it circular
   # 照片说明
   more_info: >
     <style>
@@ -15,7 +15,7 @@ profile:
         margin-bottom: -100px;
       }
       .profile img {
-        transform: scale(0.7);
+        transform: scale(0.6);
         transform-origin: top center;
       }
     </style>
