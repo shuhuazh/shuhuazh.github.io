@@ -8,6 +8,12 @@
         - Supervisor&#58; <a href='http://202.119.85.163/open/TutorInfo.aspx?dsbh=Tgqjjfe24SmgkxFaoLNAog==&yxsh=z5DnUPrzKKU=&zydm=w816eYcH!4Q='>Prof. Lifeng Ma</a>.
         # - <a href='../assets/pdf/thesis.pdf'>PhD thesis</a>.
         - Data-Driven Control for Networked Nonlinear Systems.
+    - title: Visiting PhD Student
+      institution: <a href='https://www.ucy.ac.cy/ece/?lang=en'>Department of Electrical and Computer Engineering</a>, School of Electrical Engineering, <a href='https://www.ucy.ac.cy/?lang=en'>University of Cyprus</a>, Nicosia, Cyprus
+      year: 2023.09 - 2024.09
+      description:
+        - Supervisor&#58; <a href='https://www.themistoklis.org/'>Prof. Themistoklis Charalambous</a>.
+        - Data-driven control for nonlinear automated vehicles.
     - title: MEng
       institution: <a href='https://zdh.qust.edu.cn/'>College of Automation and Electronic Engineering</a>, <a href='https://www.qust.edu.cn/'>Qingdao University of Science and Technology</a>, Qingdao, China
       year: 2017.09 - 2020.06
@@ -21,9 +27,3 @@
     - title: Lecturer
       institution: <a href='https://zd.zut.edu.cn/info/1052/1364.htm'>School of Automation and Electrical Engineering</a>, <a href='https://www.zut.edu.cn/'>Zhongyuan University of Technology</a>, Zhengzhou, China
       year: 2025.01 - NOW
-    - title: Visiting PhD Student
-      institution: <a href='https://www.ucy.ac.cy/ece/?lang=en'>Department of Electrical and Computer Engineering</a>, School of Electrical Engineering, <a href='https://www.ucy.ac.cy/?lang=en'>University of Cyprus</a>, Nicosia, Cyprus
-      year: 2023.09 - 2024.09
-      description:
-        - Supervisor&#58; <a href='https://www.themistoklis.org/'>Prof. Themistoklis Charalambous</a>.
-        - Data-driven control for nonlinear automated vehicles.
