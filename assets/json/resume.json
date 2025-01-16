@@ -1,18 +1,18 @@
 {
   "basics": {
     "name": "Shuhua Zhang",
-    "label": "PhD Candidate",
+    "label": "Lecturer",
     "image": "",
     "email": "zhangshuhua AT zut.edu.cn",
     "phone": "",
     // "url": "https://shuhuazh.github.io",
-    "summary": "A Ph.D. candidate in Nanjing University of Science and Technology",
+    "summary": "A Lecturer in Zhongyuan University of Technology",
     "location": {
-      "address": "No. 200, Xiaolingwei Street, Xuanwu District",
-      "postalCode": "210094",
-      "city": "Nanjing",
+      "address": "No. 1, Huaihe Road, Xinzheng Shuanghu Economic Development Zone",
+      "postalCode": "450007",
+      "city": "Zhengzhou",
       "countryCode": "China",
-      "region": "Jiangsu"
+      "region": "Henan"
     },
     "profiles": [
       {
@@ -251,7 +251,7 @@
       "keywords": [
         "Data-Driven Control",
         "Distributed Control and Estimation",
-        "Networked Nonlinear Systems",
+        "Nonlinear Networked Control Systems",
         "Automated Vehicles"
       ]
     }
