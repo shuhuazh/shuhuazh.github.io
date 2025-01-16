@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Position&#58; Ph.D. candidate<br>Affiliation&#58; <a href='https://au.njust.edu.cn/'>School of Automation</a>, <a href='https://www.njust.edu.cn/'>Nanjing University of Science and Technology</a><br>Contact&#58; zhangshuhua AT zut.edu.cn<br>Address&#58; No. 200, Xiaolingwei Street, Xuanwu District, Nanjing, 210094, China.
+subtitle: Position&#58; Lecturer<br>Affiliation&#58; <a href='https://zd.zut.edu.cn/info/1052/1364.htm'>School of Automation and Electrical Engineering</a>, <a href='https://www.zut.edu.cn/'>Zhongyuan University of Technology</a><br>Contact&#58; zhangshuhua AT zut.edu.cn<br>Address&#58; No. 1, Huaihe Road, Xinzheng Shuanghu Economic Development Zone, Zhengzhou, 450007, China.
 
 profile:
   align: right
