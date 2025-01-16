@@ -1,9 +1,9 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD Candidate
+    - title: PhD
       institution: <a href='https://au.njust.edu.cn/'>School of Automation</a>, <a href='https://www.njust.edu.cn/'>Nanjing University of Science and Technology</a>, Nanjing, China
-      year: 2020.09 - now
+      year: 2020.09 - 2025.01
       description:
         - Supervisor&#58; <a href='http://202.119.85.163/open/TutorInfo.aspx?dsbh=Tgqjjfe24SmgkxFaoLNAog==&yxsh=z5DnUPrzKKU=&zydm=w816eYcH!4Q='>Prof. Lifeng Ma</a>.
         # - <a href='../assets/pdf/thesis.pdf'>PhD thesis</a>.
@@ -14,13 +14,13 @@
       description:
         - Supervisor&#58; <a href='https://zdh.qust.edu.cn/info/1158/7255.htm'>Prof. Ronghu Chi</a>.
         - Design and analysis of local linearization and intelligent self-learning control methods.
-    - title: BSc
-      institution: Industrial Automation, <a href="https://www.zut.edu.cn/">Zhongyuan University of Technology</a>, Zhengzhou, China
-      year: 2012.12 - 2014.12
 
 - title: Experience
   type: time_table
   contents:
+    - title: Lecturer
+      institution: <a href='https://zd.zut.edu.cn/info/1052/1364.htm'>School of Automation and Electrical Engineering</a>, <a href='https://www.zut.edu.cn/'>Zhongyuan University of Technology</a>, Zhengzhou, China
+      year: 2025.01 - NOW
     - title: Visiting PhD Student
       institution: <a href='https://www.ucy.ac.cy/ece/?lang=en'>Department of Electrical and Computer Engineering</a>, School of Electrical Engineering, <a href='https://www.ucy.ac.cy/?lang=en'>University of Cyprus</a>, Nicosia, Cyprus
       year: 2023.09 - 2024.09
