@@ -169,6 +169,18 @@
   // ],
   "publications": [
     {
+      "name": "Slope-Aware Path Tracking Control for Unmanned Vehicles Using Active Disturbance Rejection Control",
+      "publisher": "2025 9th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+      "releaseDate": "2025",
+      "url": "https://ieeexplore.ieee.org/document/11348337"
+    },
+    {
+      "name": "Dual-Loop Active Disturbance Rejection Control for Unmanned Surface Vehicles Under Wind Disturbance",
+      "publisher": "2025 9th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+      "releaseDate": "2025",
+      "url": "https://ieeexplore.ieee.org/document/11348229"
+    },
+    {
       "name": "Adaptive Iterative Learning Control of Discrete-Time Nonlinear Networked Systems: A Two-Description Coding Approach",
       "publisher": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
       "releaseDate": "2024",
