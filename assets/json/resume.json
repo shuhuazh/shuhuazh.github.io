@@ -88,6 +88,13 @@
   ],
   "awards": [
     {
+      "title": "First Prize of the Science and Technology Progress Award",
+      "date": "2026",
+      "awarder": "Chinese Association of Automation (CAA)"
+      // "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      // "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    },
+    {
       "title": "Outstanding Master's Degree Thesis of Shandong Province",
       "date": "2021",
       "awarder": "Shandong Provincial Education Department"
@@ -254,9 +261,21 @@
         "Nonlinear Networked Control Systems",
         "Automated Vehicles"
       ]
+    },
+    {
+      "name": "Unmanned Surface Vehicles",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Tracking Control"
+      ]
     }
   ],
   "references": [
+    {
+      "name": "Professor Yuanqing Xia",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "School of Automation, Beijing Institute of Technology & Zhongyuan University of Technology, Beijing & Zhengzhou, China."
+    },
     {
       "name": "Professor Lifeng Ma",
       "icon": "fa-solid fa-thumbtack",
@@ -274,6 +293,20 @@
     }
   ],
   "projects": [
+    {
+      "name": "Data-Driven Safe Control of Nonlinear Networked Systems under Multiple Constraints",
+      "summary": "Young Scientists Fund of the National Natural Science Foundation of China (NSFC) (Grant 62503512)",
+      "highlights": ["Principal Investigator"],
+      "startDate": "2026-01",
+      "endDate": "2028-12"
+    },
+    {
+      "name": "Data-Driven Distributed Cooperative Control for Unmanned Surface Vehicle Swarm Inspection in Complex Waters",
+      "summary": "Henan Provincial Science and Technology Research Project (Grant 262102210112)",
+      "highlights": ["Principal Investigator"],
+      "startDate": "2026-01",
+      "endDate": "2027-12"
+    },
     {
       "name": "Data-Driven Control for Nonlinear Systems under Network Attacks",
       "summary": "Postgraduate Research and Practice Innovation Program of Jiangsu Province (Grant KYCX23_0477)",
@@ -294,13 +327,6 @@
       "highlights": ["Participant"],
       "startDate": "2023-01",
       "endDate": "2026-12"
-    },
-    {
-      "name": "Distributed Set-Membership Filtering Based on Event-Triggered Mechanisms under Network Attacks",
-      "summary": "National Natural Science Foundation of China (Grant 61773209)",
-      "highlights": ["Participant"],
-      "startDate": "2018-01",
-      "endDate": "2021-12"
     },
     {
       "name": "xxxxxx",
