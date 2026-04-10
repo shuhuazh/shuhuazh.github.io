@@ -497,7 +497,6 @@ ul.timeline li::before {
 
 .research-section-title {
   margin: 0;
-  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
   font-size: 1.54rem;
   font-weight: 600;
   letter-spacing: -0.02em;
@@ -547,12 +546,11 @@ ul.timeline li::before {
   margin: 0;
   padding-top: 0.06rem;
   color: var(--global-theme-color);
-  font-size: 0.78rem;
+  font-size: 0.92rem;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.01em;
   line-height: 1.45;
   text-align: right;
-  text-transform: uppercase;
 }
 
 .research-interest-points,
@@ -596,21 +594,42 @@ ul.timeline li::before {
   text-align: right;
 }
 
-.research-project-date,
+.research-award-meta {
+  text-align: left;
+}
+
+.research-project-start,
+.research-project-end,
+.research-project-single,
 .research-award-year {
   display: inline-block;
   color: var(--global-theme-color);
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
-  font-size: 0.76rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.04em;
   line-height: 1.45;
-  text-transform: uppercase;
+}
+
+.research-project-start,
+.research-project-end,
+.research-project-single {
+  display: block;
+}
+
+.research-project-divider {
+  display: inline-block;
+  margin: 0.14rem 0;
+  padding: 0.06rem 0.5rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--global-theme-color) 10%, transparent);
+  color: var(--global-theme-color);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
 }
 
 .research-project-title {
   margin: 0;
-  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
   font-size: 1.08rem;
   font-weight: 600;
   letter-spacing: -0.01em;
@@ -625,22 +644,25 @@ ul.timeline li::before {
 .research-project-source {
   margin-top: 0.18rem;
   font-size: 0.96rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.68;
+  color: var(--global-text-color-light);
 }
 
 .research-project-role {
   margin-top: 0.28rem;
-  color: var(--global-theme-color);
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.16em;
+  color: var(--global-text-color-light);
+  font-size: 0.84rem;
+  font-weight: 500;
   line-height: 1.5;
-  text-transform: uppercase;
 }
 
 .research-project-notes {
   margin-top: 0.35rem;
+}
+
+.research-award-item {
+  grid-template-columns: 6rem minmax(0, 1fr);
 }
 
 @media (max-width: 980px) {
@@ -660,9 +682,12 @@ ul.timeline li::before {
   }
 
   .research-interest-item,
-  .research-project-item,
-  .research-award-item {
+  .research-project-item {
     grid-template-columns: 8.8rem minmax(0, 1fr);
+  }
+
+  .research-award-item {
+    grid-template-columns: 5.5rem minmax(0, 1fr);
   }
 
   .research-interest-title,
@@ -708,11 +733,23 @@ ul.timeline li::before {
 
   .research-interest-title {
     font-size: 0.74rem;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.02em;
   }
 
-  .research-project-date,
+  .research-project-start,
+  .research-project-end,
+  .research-project-single,
   .research-award-year {
     font-size: 0.72rem;
+  }
+
+  .research-project-start,
+  .research-project-end,
+  .research-project-single {
+    display: inline;
+  }
+
+  .research-project-divider {
+    margin: 0 0.45rem;
   }
 }

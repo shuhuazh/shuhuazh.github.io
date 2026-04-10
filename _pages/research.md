@@ -59,9 +59,11 @@ nav_order: 2
             <article class="research-project-item">
               <div class="research-project-meta">
                 {% if grant_year_to != '' %}
-                  <span class="research-project-date">{{ grant_year_from }} - {{ grant_year_to }}</span>
+                  <span class="research-project-start">{{ grant_year_from }}</span>
+                  <span class="research-project-divider">to</span>
+                  <span class="research-project-end">{{ grant_year_to }}</span>
                 {% else %}
-                  <span class="research-project-date">{{ grant.year }}</span>
+                  <span class="research-project-single">{{ grant.year }}</span>
                 {% endif %}
               </div>
 
