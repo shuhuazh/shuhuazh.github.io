@@ -1,0 +1,120 @@
+<section class="edu-exp-section">
+  <h2 class="edu-exp-section-title">{{ entry.title }}</h2>
+
+  <div class="edu-exp-items">
+    {% for content in entry.contents %}
+      {% assign year_parts = content.year | split: ' - ' %}
+      {% assign year_from = year_parts[0] | strip %}
+      {% assign year_to = year_parts[1] | default: '' | strip %}
+      {% capture logo_exists %}{% file_exists {{ content.logo }} %}{% endcapture %}
+
+      <article class="edu-exp-item{% if forloop.first %} is-first{% endif %}{% if forloop.last %} is-last{% endif %}">
+        <div class="edu-exp-time">
+          {% if year_to != '' %}
+            <span class="edu-exp-time-start">{{ year_from }}</span>
+            <span class="edu-exp-time-divider">to</span>
+            <span class="edu-exp-time-end{% if year_to == 'NOW' %} is-current{% endif %}">{{ year_to }}</span>
+          {% else %}
+            <span class="edu-exp-time-single">{{ content.year }}</span>
+          {% endif %}
+        </div>
+
+        <div class="edu-exp-logo-column">
+          <div class="edu-exp-logo-shell">
+            {% if content.logo and logo_exists == 'true' %}
+              <img
+                class="edu-exp-logo-image"
+                src="{{ content.logo | relative_url }}"
+                alt="{{ content.logo_alt | default: content.title | escape }} logo"
+              >
+            {% elsif content.logo_text %}
+              <span class="edu-exp-logo-fallback">{{ content.logo_text }}</span>
+            {% else %}
+              <span class="edu-exp-logo-fallback">{{ content.title | slice: 0, 1 }}</span>
+            {% endif %}
+          </div>
+        </div>
+
+        <div class="edu-exp-content">
+          <div class="edu-exp-heading">
+            {% if content.title %}
+              <h3 class="edu-exp-entry-title">{{ content.title }}</h3>
+            {% endif %}
+            {% if year_to == 'NOW' %}
+              <span class="edu-exp-badge">Current</span>
+            {% endif %}
+          </div>
+
+          {% if content.department or content.institution %}
+            <div class="edu-exp-institution">
+              {% if content.department %}
+                <div>{{ content.department }}</div>
+              {% endif %}
+              {% if content.institution %}
+                <div>{{ content.institution }}</div>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          {% if content.maindescription %}
+            <div class="edu-exp-main-description">{{ content.maindescription }}</div>
+          {% endif %}
+
+          {% if content.description %}
+            <ul class="edu-exp-description">
+              {% for item in content.description %}
+                {% if item.contents %}
+                  <li>
+                    <span class="edu-exp-item-title">{{ item.title }}</span>
+                    <ul class="edu-exp-subitems">
+                      {% for subitem in item.contents %}
+                        <li>{{ subitem }}</li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% else %}
+                  <li>{{ item }}</li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+          {% if content.items %}
+            <ul class="edu-exp-description">
+              {% for item in content.items %}
+                {% if item.contents %}
+                  <li>
+                    <span class="edu-exp-item-title">{{ item.title }}</span>
+                    <ul class="edu-exp-subitems">
+                      {% for subitem in item.contents %}
+                        <li>{{ subitem }}</li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% else %}
+                  <li>{{ item }}</li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+          {% if content.linkitems %}
+            <div class="edu-exp-links">
+              {% for item in content.linkitems %}
+                {% if item.link %}
+                  <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">
+                    {% if item.linkname %}
+                      {{ item.linkname }}
+                    {% else %}
+                      doc
+                    {% endif %}
+                  </a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>

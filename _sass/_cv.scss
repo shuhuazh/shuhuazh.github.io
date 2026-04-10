@@ -213,3 +213,254 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+
+/*****************************
+ * Education & Experience page
+ *****************************/
+
+.edu-exp-page {
+  margin-top: 1.5rem;
+}
+
+.edu-exp-section + .edu-exp-section {
+  margin-top: 3.5rem;
+}
+
+.edu-exp-section-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 0 1.5rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.edu-exp-section-title::after {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: var(--global-divider-color);
+}
+
+.edu-exp-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.edu-exp-item {
+  display: grid;
+  grid-template-columns: 8.6rem 5.5rem minmax(0, 1fr);
+  gap: 1.6rem;
+  align-items: start;
+  padding: 1.35rem 0 1.65rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.edu-exp-time {
+  padding-top: 0.35rem;
+  text-align: right;
+  line-height: 1.25;
+}
+
+.edu-exp-time-start,
+.edu-exp-time-end,
+.edu-exp-time-single {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.edu-exp-time-divider {
+  display: inline-block;
+  margin: 0.35rem 0;
+  padding: 0.08rem 0.55rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--global-theme-color) 10%, transparent);
+  color: var(--global-theme-color);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.edu-exp-time-end.is-current {
+  color: var(--global-theme-color);
+}
+
+.edu-exp-logo-column {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.15rem;
+}
+
+.edu-exp-logo-column::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -1.35rem;
+  bottom: -1.65rem;
+  width: 1px;
+  transform: translateX(-50%);
+  background: var(--global-divider-color);
+}
+
+.edu-exp-item.is-first .edu-exp-logo-column::before {
+  top: 0.8rem;
+}
+
+.edu-exp-item.is-last .edu-exp-logo-column::before {
+  bottom: 0.8rem;
+}
+
+.edu-exp-logo-shell {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.8rem;
+  height: 4.8rem;
+  background: var(--global-bg-color);
+}
+
+.edu-exp-logo-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.edu-exp-logo-fallback {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 4.2rem;
+  min-height: 4.2rem;
+  color: var(--global-theme-color);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.edu-exp-content {
+  min-width: 0;
+}
+
+.edu-exp-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.edu-exp-entry-title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.edu-exp-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.14rem 0.6rem;
+  border: 1px solid color-mix(in srgb, var(--global-theme-color) 30%, transparent);
+  border-radius: 999px;
+  color: var(--global-theme-color);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.edu-exp-institution,
+.edu-exp-main-description {
+  margin-top: 0.4rem;
+  color: var(--global-text-color-light);
+  line-height: 1.75;
+}
+
+.edu-exp-description,
+.edu-exp-subitems {
+  margin-bottom: 0;
+}
+
+.edu-exp-description {
+  margin-top: 0.75rem;
+  padding-left: 1.15rem;
+}
+
+.edu-exp-description li,
+.edu-exp-subitems li {
+  line-height: 1.75;
+}
+
+.edu-exp-description li + li,
+.edu-exp-subitems li + li {
+  margin-top: 0.15rem;
+}
+
+.edu-exp-item-title {
+  font-weight: 600;
+}
+
+.edu-exp-subitems {
+  margin-top: 0.3rem;
+  padding-left: 1.15rem;
+}
+
+.edu-exp-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .edu-exp-section + .edu-exp-section {
+    margin-top: 2.5rem;
+  }
+
+  .edu-exp-item {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+    padding: 1.25rem 0 1.4rem;
+  }
+
+  .edu-exp-time {
+    padding-top: 0;
+    text-align: left;
+  }
+
+  .edu-exp-time-start,
+  .edu-exp-time-end,
+  .edu-exp-time-single {
+    display: inline;
+  }
+
+  .edu-exp-time-divider {
+    margin: 0 0.45rem;
+    vertical-align: middle;
+  }
+
+  .edu-exp-logo-column {
+    justify-content: flex-start;
+    padding-top: 0;
+  }
+
+  .edu-exp-logo-column::before {
+    display: none;
+  }
+
+  .edu-exp-logo-shell {
+    width: 4.4rem;
+    height: 4.4rem;
+  }
+
+  .edu-exp-section-title {
+    margin-bottom: 1.15rem;
+    font-size: 1.2rem;
+  }
+}

@@ -2,6 +2,9 @@
   type: time_table
   contents:
     - title: PhD
+      logo: assets/img/edu-and-exp/njust.png
+      logo_text: NJUST
+      logo_alt: Nanjing University of Science and Technology
       institution: <a href='https://au.njust.edu.cn/'>School of Automation</a>, <a href='https://www.njust.edu.cn/'>Nanjing University of Science and Technology</a>, Nanjing, China
       year: 2020.09 - 2025.01
       description:
@@ -9,12 +12,18 @@
         # - <a href='../assets/pdf/thesis.pdf'>PhD thesis</a>.
         - Data-Driven Control for Networked Nonlinear Systems.
     - title: Visiting PhD Student
+      logo: assets/img/edu-and-exp/ucy.png
+      logo_text: UCY
+      logo_alt: University of Cyprus
       institution: <a href='https://www.ucy.ac.cy/ece/?lang=en'>Department of Electrical and Computer Engineering</a>, School of Electrical Engineering, <a href='https://www.ucy.ac.cy/?lang=en'>University of Cyprus</a>, Nicosia, Cyprus
       year: 2023.09 - 2024.09
       description:
         - Supervisor&#58; <a href='https://www.themistoklis.org/'>Prof. Themistoklis Charalambous</a>.
         - Data-driven control for nonlinear automated vehicles.
     - title: MEng
+      logo: assets/img/edu-and-exp/qust.png
+      logo_text: QUST
+      logo_alt: Qingdao University of Science and Technology
       institution: <a href='https://zdh.qust.edu.cn/'>College of Automation and Electronic Engineering</a>, <a href='https://www.qust.edu.cn/'>Qingdao University of Science and Technology</a>, Qingdao, China
       year: 2017.09 - 2020.06
       description:
@@ -24,6 +33,17 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Postdoctoral Researcher
+      logo: assets/img/edu-and-exp/bit.png
+      logo_text: BIT
+      logo_alt: Beijing Institute of Technology
+      institution: <a href='https://ac.bit.edu.cn/'>School of Automation</a>, <a href='https://www.bit.edu.cn/'>Beijing Institute of Technology</a>, Beijing, China
+      year: 2025.10 - NOW
+      description:
+        - Supervisor&#58; <a href='https://ac.bit.edu.cn/szdw/jsml/js/yuanqingxia/184484.htm'>Prof. Yuanqing Xia</a>.
     - title: Lecturer
+      logo: assets/img/edu-and-exp/zut.png
+      logo_text: ZUT
+      logo_alt: Zhongyuan University of Technology
       institution: <a href='https://zd.zut.edu.cn/'>School of Automation and Electrical Engineering</a>, <a href='https://www.zut.edu.cn/'>Zhongyuan University of Technology</a>, Zhengzhou, China
       year: 2025.01 - NOW
