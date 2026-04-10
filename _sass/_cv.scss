@@ -464,3 +464,250 @@ ul.timeline li::before {
     font-size: 1.2rem;
   }
 }
+
+/*****************************
+ * Research page
+ *****************************/
+
+.research-page {
+  margin-top: 1.5rem;
+}
+
+.research-section + .research-section {
+  margin-top: 4rem;
+}
+
+.research-section-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.4rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.research-section-title {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.research-section-note {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  text-align: right;
+}
+
+.research-interest-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.6rem 2.2rem;
+}
+
+.research-interest-item {
+  padding-top: 0.2rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.research-interest-title {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.research-interest-list {
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+.research-interest-list li {
+  line-height: 1.8;
+}
+
+.research-interest-list li + li {
+  margin-top: 0.3rem;
+}
+
+.research-timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.research-timeline-item {
+  display: grid;
+  grid-template-columns: 8.9rem 2.5rem minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+  padding: 1.35rem 0 1.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.research-timeline-time {
+  padding-top: 0.2rem;
+  text-align: right;
+  line-height: 1.25;
+}
+
+.research-timeline-start,
+.research-timeline-end,
+.research-timeline-single {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.research-timeline-divider {
+  display: inline-block;
+  margin: 0.35rem 0;
+  color: var(--global-theme-color);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.research-timeline-marker {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.research-timeline-marker::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -1.35rem;
+  bottom: -1.5rem;
+  width: 1px;
+  transform: translateX(-50%);
+  background: var(--global-divider-color);
+}
+
+.research-timeline-item.is-first .research-timeline-marker::before {
+  top: 0.7rem;
+}
+
+.research-timeline-item.is-last .research-timeline-marker::before {
+  bottom: 0.7rem;
+}
+
+.research-timeline-marker span {
+  position: relative;
+  z-index: 1;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-top: 0.38rem;
+  border-radius: 50%;
+  background: var(--global-bg-color);
+  box-shadow: inset 0 0 0 2px var(--global-theme-color);
+}
+
+.research-timeline-title {
+  margin: 0;
+  font-size: 1.08rem;
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+.research-timeline-list {
+  margin: 0.6rem 0 0;
+  padding-left: 1.15rem;
+}
+
+.research-timeline-list li {
+  line-height: 1.8;
+}
+
+.research-timeline-list li + li {
+  margin-top: 0.2rem;
+}
+
+.research-awards-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.research-awards-item {
+  display: grid;
+  grid-template-columns: 5.5rem minmax(0, 1fr);
+  gap: 1.4rem;
+  align-items: start;
+  padding: 1.05rem 0 1.15rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.research-awards-year {
+  color: var(--global-theme-color);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.research-awards-title {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.research-awards-points {
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+.research-awards-points li {
+  line-height: 1.8;
+}
+
+@media (max-width: 900px) {
+  .research-section-heading {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .research-section-note {
+    text-align: left;
+  }
+
+  .research-interest-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .research-section + .research-section {
+    margin-top: 2.8rem;
+  }
+
+  .research-timeline-item,
+  .research-awards-item {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+  }
+
+  .research-timeline-time {
+    text-align: left;
+  }
+
+  .research-timeline-start,
+  .research-timeline-end,
+  .research-timeline-single {
+    display: inline;
+  }
+
+  .research-timeline-divider {
+    margin: 0 0.45rem;
+  }
+
+  .research-timeline-marker {
+    display: none;
+  }
+
+  .research-section-title {
+    font-size: 1.25rem;
+  }
+}
