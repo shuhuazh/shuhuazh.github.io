@@ -14,7 +14,6 @@ nav_order: 2
   {% if research_interests %}
     <section class="research-section">
       <div class="research-section-rail">
-        <span class="research-section-number">01</span>
         <h2 class="research-section-title">{{ research_interests.title }}</h2>
       </div>
 
@@ -42,7 +41,6 @@ nav_order: 2
   {% if funding_grants %}
     <section class="research-section">
       <div class="research-section-rail">
-        <span class="research-section-number">02</span>
         <h2 class="research-section-title">{{ funding_grants.title }}</h2>
       </div>
 
@@ -100,7 +98,6 @@ nav_order: 2
   {% if honors_awards %}
     <section class="research-section">
       <div class="research-section-rail">
-        <span class="research-section-number">03</span>
         <h2 class="research-section-title">{{ honors_awards.title }}</h2>
       </div>
 
