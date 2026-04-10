@@ -470,26 +470,28 @@ ul.timeline li::before {
  *****************************/
 
 .research-page {
-  margin-top: 1.1rem;
+  margin-top: 0.75rem;
 }
 
 .research-section + .research-section {
-  margin-top: 2.35rem;
+  margin-top: 1.7rem;
 }
 
 .research-section-heading {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 0.85rem;
+  margin-bottom: 0.35rem;
+  padding-bottom: 0.32rem;
 }
 
 .research-section-title {
   flex: 0 0 auto;
   margin: 0;
-  font-size: 1.2rem;
-  font-weight: 600;
-  letter-spacing: 0.01em;
+  font-size: 1.42rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
 }
 
 .research-section-heading::after {
@@ -504,46 +506,61 @@ ul.timeline li::before {
 .research-award-list {
   display: flex;
   flex-direction: column;
-  border-top: 1px solid var(--global-divider-color);
 }
 
 .research-interest-row,
 .research-project-row,
 .research-award-item {
   display: grid;
-  grid-template-columns: 13rem minmax(0, 1fr);
-  gap: 1.3rem;
+  grid-template-columns: 11.5rem minmax(0, 1fr);
+  gap: 1rem;
   align-items: start;
-  padding: 0.9rem 0 1rem;
+  padding: 0.62rem 0 0.72rem;
   border-bottom: 1px solid var(--global-divider-color);
 }
 
-.research-interest-name,
+.research-interest-name {
+  margin: 0;
+  color: var(--global-theme-color);
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
 .research-project-title {
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.98rem;
   font-weight: 600;
   line-height: 1.55;
 }
 
 .research-interest-points,
-.research-award-points {
+.research-award-points,
+.research-project-notes {
   margin: 0;
-  padding-left: 1.15rem;
+  padding-left: 1rem;
 }
 
 .research-interest-points li,
-.research-award-points li {
-  line-height: 1.75;
+.research-award-points li,
+.research-project-notes li {
+  line-height: 1.68;
 }
 
 .research-interest-points li + li,
-.research-award-points li + li {
-  margin-top: 0.25rem;
+.research-award-points li + li,
+.research-project-notes li + li {
+  margin-top: 0.12rem;
+}
+
+.research-interest-points li::marker,
+.research-award-points li::marker,
+.research-project-notes li::marker {
+  color: var(--global-theme-color);
 }
 
 .research-project-time {
-  padding-top: 0.08rem;
+  padding-top: 0.06rem;
   line-height: 1.25;
   font-variant-numeric: tabular-nums;
 }
@@ -552,14 +569,14 @@ ul.timeline li::before {
 .research-project-end,
 .research-project-single {
   display: block;
-  font-size: 0.92rem;
+  font-size: 0.88rem;
   font-weight: 600;
 }
 
 .research-project-divider {
   display: inline-block;
-  margin: 0.2rem 0;
-  font-size: 0.64rem;
+  margin: 0.14rem 0;
+  font-size: 0.6rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   color: var(--global-theme-color);
@@ -569,34 +586,32 @@ ul.timeline li::before {
 .research-project-source,
 .research-project-role {
   margin: 0;
-  line-height: 1.65;
+  line-height: 1.58;
 }
 
 .research-project-source {
-  margin-top: 0.18rem;
+  margin-top: 0.08rem;
   color: var(--global-text-color);
   font-weight: 500;
+  font-size: 0.96rem;
 }
 
 .research-project-role {
   color: var(--global-theme-color);
-  font-size: 0.86rem;
+  font-size: 0.8rem;
   font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .research-project-notes {
-  margin-top: 0.35rem;
+  margin-top: 0.22rem;
   margin-bottom: 0;
-  padding-left: 1.15rem;
-}
-
-.research-project-notes li {
-  line-height: 1.8;
 }
 
 .research-award-year {
   color: var(--global-theme-color);
-  font-size: 0.96rem;
+  font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.04em;
 }
@@ -605,13 +620,13 @@ ul.timeline li::before {
   .research-interest-row,
   .research-project-row,
   .research-award-item {
-    grid-template-columns: 10rem minmax(0, 1fr);
+    grid-template-columns: 9rem minmax(0, 1fr);
   }
 }
 
 @media (max-width: 768px) {
   .research-section + .research-section {
-    margin-top: 2rem;
+    margin-top: 1.55rem;
   }
 
   .research-interest-row,
@@ -619,7 +634,7 @@ ul.timeline li::before {
   .research-award-item {
     grid-template-columns: 1fr;
     gap: 0.35rem;
-    padding: 0.8rem 0 0.9rem;
+    padding: 0.68rem 0 0.76rem;
   }
 
   .research-project-time {
@@ -637,6 +652,6 @@ ul.timeline li::before {
   }
 
   .research-section-title {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 }
