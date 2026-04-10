@@ -11,45 +11,19 @@ nav_order: 2
 {% assign honors_awards = site.data.research | where: "title", "Honors and Awards" | first %}
 
 <div class="research-page">
-  <section class="research-intro">
-    <div class="research-intro-copy">
-      <p class="research-kicker">Research Program</p>
-      <h2 class="research-intro-title">Data-driven control for nonlinear, networked, and autonomous systems.</h2>
-      <p class="research-intro-lead">
-        Current work centers on model-free and iterative learning methods, distributed coordination and estimation,
-        resilient control under communication constraints and attacks, and control-oriented autonomy for vehicles and marine systems.
-      </p>
-    </div>
-
-    {% if research_interests %}
-      <div class="research-intro-focus">
-        <div class="research-intro-focus-label">Focus Areas</div>
-        <ul class="research-intro-focus-list">
-          {% for topic in research_interests.contents %}
-            <li>{{ topic.title }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
-  </section>
-
   {% if research_interests %}
     <section class="research-section research-interests-section">
       <div class="research-section-heading">
         <h2 class="research-section-title">{{ research_interests.title }}</h2>
-        <p class="research-section-note">Themes are organized by method, system setting, and application domain.</p>
       </div>
 
-      <div class="research-theme-list">
+      <div class="research-interest-listing">
         {% for topic in research_interests.contents %}
-          <article class="research-theme-item">
-            <div class="research-theme-index">
-              {% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}
-            </div>
-            <div class="research-theme-content">
-              <h3 class="research-theme-title">{{ topic.title }}</h3>
+          <article class="research-interest-row">
+            <h3 class="research-interest-name">{{ topic.title }}</h3>
+            <div class="research-interest-body">
               {% if topic.items %}
-                <ul class="research-theme-points">
+                <ul class="research-interest-points">
                   {% for item in topic.items %}
                     <li>{{ item }}</li>
                   {% endfor %}
@@ -66,7 +40,6 @@ nav_order: 2
     <section class="research-section research-grants-section">
       <div class="research-section-heading">
         <h2 class="research-section-title">{{ funding_grants.title }}</h2>
-        <p class="research-section-note">Project title, funding source, and research role.</p>
       </div>
 
       <div class="research-project-list">
@@ -80,7 +53,7 @@ nav_order: 2
             {% assign hide_grant_title = true %}
           {% endif %}
 
-          <article class="research-project-item">
+          <article class="research-project-row">
             <div class="research-project-time">
               {% if grant_year_to != '' %}
                 <span class="research-project-start">{{ grant_year_from }}</span>
@@ -124,10 +97,9 @@ nav_order: 2
     <section class="research-section research-awards-section">
       <div class="research-section-heading">
         <h2 class="research-section-title">{{ honors_awards.title }}</h2>
-        <p class="research-section-note">A compact record of major recognitions and academic distinctions.</p>
       </div>
 
-      <div class="research-awards-rail">
+      <div class="research-award-list">
         {% for award_group in honors_awards.contents %}
           <article class="research-award-item">
             <div class="research-award-year">{{ award_group.year }}</div>
