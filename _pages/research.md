@@ -8,7 +8,7 @@ nav_order: 2
 
 {% assign research_interests = site.data.research | where: "title", "Research Interests" | first %}
 {% assign funding_grants = site.data.research | where: "title", "Funding &amp; Grants" | first %}
-{% assign honors_awards = site.data.research | where: "title", "Honors &amp; Awards" | first %}
+{% assign honors_awards = site.data.research | where: "title", "Honors & Awards" | first %}
 
 <div class="research-page">
   {% if research_interests %}
