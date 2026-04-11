@@ -26,6 +26,7 @@
                 class="edu-exp-logo-image"
                 src="{{ content.logo | relative_url }}"
                 alt="{{ content.logo_alt | default: content.title | escape }} logo"
+                style="--edu-exp-logo-scale: {{ content.logo_scale | default: 1 }};"
               >
             {% elsif content.logo_text %}
               <span class="edu-exp-logo-fallback">{{ content.logo_text }}</span>

@@ -50,11 +50,6 @@ nav_order: 2
             {% assign grant_year_parts = grant.year | split: ' - ' %}
             {% assign grant_year_from = grant_year_parts[0] | strip %}
             {% assign grant_year_to = grant_year_parts[1] | default: '' | strip %}
-            {% assign grant_display_title = grant.title | strip %}
-            {% assign hide_grant_title = false %}
-            {% if grant_display_title == '' or grant_display_title == 'xxxxxx' %}
-              {% assign hide_grant_title = true %}
-            {% endif %}
 
             <article class="research-project-item">
               <div class="research-project-meta">
@@ -68,9 +63,9 @@ nav_order: 2
               </div>
 
               <div class="research-project-body">
-                {% unless hide_grant_title %}
+                {% if grant.title %}
                   <h3 class="research-project-title">{{ grant.title }}</h3>
-                {% endunless %}
+                {% endif %}
 
                 {% if grant.description %}
                   {% if grant.description.first %}

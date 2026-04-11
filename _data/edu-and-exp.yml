@@ -43,6 +43,7 @@
         - Supervisor&#58; <a href='https://pure.bit.edu.cn/zh/persons/yuanqing-xia/'>Prof. Yuanqing Xia</a>.
     - title: Lecturer
       logo: assets/img/edu-and-exp/zut.png
+      logo_scale: 1.2
       logo_text: ZUT
       logo_alt: Zhongyuan University of Technology
       institution: <a href='https://zd.zut.edu.cn/'>School of Automation and Electrical Engineering</a>, <a href='https://www.zut.edu.cn/'>Zhongyuan University of Technology</a>, Zhengzhou, China
