@@ -35,6 +35,11 @@ table {
   }
 }
 
+.news table th {
+  color: var(--global-text-color);
+  font-weight: 400;
+}
+
 a,
 table.table a {
   color: var(--global-theme-color);
