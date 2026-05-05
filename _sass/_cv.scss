@@ -232,9 +232,8 @@ ul.timeline li::before {
   align-items: center;
   gap: 1rem;
   margin: 0 0 1.5rem;
-  color: var(--global-text-color);
   font-size: 1.35rem;
-  font-weight: 401;
+  font-weight: 600;
   letter-spacing: 0.01em;
 }
 
@@ -269,9 +268,8 @@ ul.timeline li::before {
 .edu-exp-time-end,
 .edu-exp-time-single {
   display: block;
-  color: var(--global-text-color);
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.01em;
 }
 
@@ -283,7 +281,7 @@ ul.timeline li::before {
   background: color-mix(in srgb, var(--global-theme-color) 10%, transparent);
   color: var(--global-theme-color);
   font-size: 0.68rem;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -345,7 +343,7 @@ ul.timeline li::before {
   min-height: 4.2rem;
   color: var(--global-theme-color);
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.06em;
 }
 
@@ -362,9 +360,8 @@ ul.timeline li::before {
 
 .edu-exp-entry-title {
   margin: 0;
-  color: var(--global-text-color);
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .edu-exp-badge {
@@ -375,7 +372,7 @@ ul.timeline li::before {
   border-radius: 999px;
   color: var(--global-theme-color);
   font-size: 0.72rem;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -408,8 +405,7 @@ ul.timeline li::before {
 }
 
 .edu-exp-item-title {
-  color: var(--global-text-color);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .edu-exp-subitems {
@@ -503,9 +499,8 @@ ul.timeline li::before {
 
 .research-section-title {
   margin: 0;
-  color: var(--global-text-color);
   font-size: 1.34rem;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 1.08;
 }
@@ -552,9 +547,9 @@ ul.timeline li::before {
 .research-interest-title {
   margin: 0;
   padding-top: 0.06rem;
-  color: var(--global-text-color);
+  color: var(--global-theme-color);
   font-size: 0.92rem;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.01em;
   line-height: 1.45;
   text-align: right;
@@ -610,9 +605,9 @@ ul.timeline li::before {
 .research-project-single,
 .research-award-year {
   display: inline-block;
-  color: var(--global-text-color);
+  color: var(--global-theme-color);
   font-size: 0.8rem;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 1.45;
 }
@@ -631,15 +626,14 @@ ul.timeline li::before {
   background: color-mix(in srgb, var(--global-theme-color) 10%, transparent);
   color: var(--global-theme-color);
   font-size: 0.62rem;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.08em;
 }
 
 .research-project-title {
   margin: 0;
-  color: var(--global-text-color);
   font-size: 1.08rem;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: -0.01em;
   line-height: 1.45;
 }
@@ -659,9 +653,9 @@ ul.timeline li::before {
 
 .research-project-role {
   margin-top: 0.28rem;
-  color: var(--global-text-color);
+  color: var(--global-text-color-light);
   font-size: 0.84rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
 }
 
